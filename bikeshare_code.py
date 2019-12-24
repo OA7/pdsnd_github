@@ -31,8 +31,8 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
 
     while True:
-      months = input("\nWhich month would you like to filter by? January, February, March, April, May, June or type 'all' if you do not have any preference?\n").lower()
-      if months not in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
+      month = input("\nWhich month would you like to filter by? January, February, March, April, May, June or type 'all' if you do not have any preference?\n").lower()
+      if month not in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
         print("Sorry, Try again!")
         continue
       else:
@@ -49,7 +49,7 @@ def get_filters():
         break
 
     print('-'*40)
-    return city, months, day
+    return city, month, day
 
 
 def load_data(city, month, day):
