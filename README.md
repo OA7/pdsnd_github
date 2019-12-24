@@ -13,5 +13,5 @@ My project entailed me writing Python code to explore data related to bikeshare 
 new_york_city.csv, washington.csv, chicago.csv
 
 ### Credits
-I'd like to thank all my Udacity mentors for their support through out this project.
+I'd like to thank all my Udacity mentors for their support through out this project and also my Mom for gettin me a new laptop to make things a lot better.
 
